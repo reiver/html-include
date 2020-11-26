@@ -30,17 +30,35 @@
 
 The most basic way of using `<html-include>` is:
 
-```
+```html
 <html-include src="footer.html"></html-include>
 ```
 
-```
+```html
 <html-include src="includes/header.html"></html-include>
 ```
 
-```
+```html
 <html-include src="path/to/the/file.html"></html-include>
 ```
 
 Note that in this _basic usage_ we just set the `src` attribute to point to the URI we want to include.
+
+## Advanced usage:
+
+A more advanced way using `<html-include>` is:
+
+```html
+<html-include title="footer" src="footer.html" />
+```
+Note the addition of the ‘title’ attribute.
+
+This usage will show a more informative loading message.
+I.e., instead of showing:
+> Loading…
+… it will show:
+> Loading “footer”…
+
+I.e., it includes whatever is in the ‘title’ attribute in the loading-message.
+
 
