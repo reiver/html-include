@@ -62,4 +62,18 @@ I.e., instead of showing:
 
 I.e., it includes whatever is in the ‘title’ attribute in the loading-message.
 
+## Debugging
 
+If you need to debug what `<html-include>` is doing you can use the `debug="true"` attribute. For example:
+
+```html
+<html-include debug="true" src="footer.html" />
+```
+
+```html
+<html-include debug="true" title="footer" src="footer.html" />
+```
+
+Note the addition of the ‘debug’ attribute, with the value set to the string "true".
+
+This will call console.log() with logs that try to provide inside into what <html-include> is doing internally.
