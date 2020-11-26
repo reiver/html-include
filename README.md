@@ -44,7 +44,7 @@ The most basic way of using `<html-include>` is:
 
 Note that in this _basic usage_ we just set the `src` attribute to point to the URI we want to include.
 
-## Advanced usage:
+## Advanced Usage
 
 A more advanced way using `<html-include>` is:
 
