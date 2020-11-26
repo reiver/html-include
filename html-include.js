@@ -5,13 +5,13 @@
 //
 // Basic usage:
 //
-//	<html-include src="footer.html" />
+//	<html-include src="footer.html"></html-include>
 //
-//	<html-include src="includes/header.html" />
+//	<html-include src="includes/header.html"></html-include>
 //
 // Advanced usage:
 //
-//	<html-include title="footer" src="footer.html" />
+//	<html-include title="footer" src="footer.html"></html-include>
 //	
 //	Note the addition of the ‘title’ attribute.
 //	
@@ -29,9 +29,9 @@
 // Debugging:
 //
 //
-//	<html-include debug="true" src="footer.html" />
+//	<html-include debug="true" src="footer.html"></html-include>
 //
-//	<html-include debug="true" title="footer" src="footer.html" />
+//	<html-include debug="true" title="footer" src="footer.html"></html-include>
 //
 //	Note the addition of the ‘debug’ attribute, with the value set to the string "true".
 //	
