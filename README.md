@@ -24,5 +24,23 @@
 		<html-include title="footer" src="partials/footer.html"></html-include>
 	</body>
 </html>
+```
+
+## Basic Usage
+
+The most basic way of using `<html-include>` is:
 
 ```
+<html-include src="footer.html"></html-include>
+```
+
+```
+<html-include src="includes/header.html"></html-include>
+```
+
+```
+<html-include src="path/to/the/file.html"></html-include>
+```
+
+Note that in this _basic usage_ we just set the `src` attribute to point to the URI we want to include.
+
