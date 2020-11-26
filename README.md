@@ -2,6 +2,8 @@
 
 `<html-include>` is a **web component** that lets you _include_ HTML at one URI into another HTML page.
 
+You can think of this as a web-browser-side edge-side-include (ESI) — if you are familar with the server side `<esi:include>`.
+
 ## Example
 
 ```html
