@@ -1,6 +1,6 @@
-# <html-include>
+# `<html-include>`
 
-**<html-include>** is a **web component** that lets you _include_ HTML at one URI into another HTML page.
+`<html-include>` is a **web component** that lets you _include_ HTML at one URI into another HTML page.
 
 ## Example
 
