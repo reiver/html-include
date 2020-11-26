@@ -56,6 +56,7 @@ Note the addition of the ‘title’ attribute.
 This usage will show a more informative loading message.
 I.e., instead of showing:
 > Loading…
+
 … it will show:
 > Loading “footer”…
 
